@@ -42,7 +42,9 @@ What are the advantages and disadvantages of a very flexible (versus a a less fl
 
 > **Your Answer:**
 
-A **very flexible** method can fit more complicated relationships, so it may give better predictions when the true pattern is not simple. The disadvantage of such a method may be overfitting, which can fit noise in the training data rather than the true pattern, and it may also be hard to interpret.
+A **very flexible** method can fit more complicated relationships, so it may give better predictions when the true pattern is not simple. The disadvantage of such a method may be overfitting, which can fit noise in the training data rather than the true pattern, and it may also be hard to interpret. 
+
+A flexible model is preferred when we have lots of data and mainly care about making accurate predictions, while a less flexible model is better when we have less data or when we are interested in inference and understanding how the predictors affect the response, since simpler models are easier to interpret.
 
 ---
 
@@ -50,6 +52,9 @@ A **very flexible** method can fit more complicated relationships, so it may giv
 
 Describe the differences between a **parametric** and a **non-parametric** statistical learning approach. What are the **advantages** of a parametric approach to regression or classification (as opposed to a non-parametric approach)? What are its **disadvantages**?
 
-> **Your Answer:**
+> **Your Answer:** 
 
-A **parametric** approach assumes a specific form for the relationship between **predictors** and the **response** (ex. linear relationship). A **non-parametric** approach does not assume a fixed form and is more flexible.
+A **parametric** approach assumes a specific form for the relationship between **predictors** and the **response** (ex. linear relationship). A **non-parametric** approach does not assume a fixed form and is more flexible. 
+
+The disadvantage of the parametric approach is that it can perform poorly if the assumed form is incorrect, as it is too restrictive. Non-parametric methods can capture more complex patterns, but they have the disadvantage of often requiring more data, being harder to interpret, and being more prone to overfitting.
+
